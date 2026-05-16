@@ -76,7 +76,7 @@ except ImportError:
 BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8406671676:AAH60tLuqHb88G_kVyELs7fMHUkGbtdrSMU")
 
 # 👑 آيدي المشرفين (يمكن إضافة أكثر من واحد)
-_admin_env = os.getenv("ADMIN_IDS", "8018653004")
+_admin_env = os.getenv("ADMIN_IDS", "8018653004.8259194746")
 ADMIN_IDS: List[int] = []
 for _x in _admin_env.split(","):
     _x = _x.strip()
